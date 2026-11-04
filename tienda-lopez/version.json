@@ -3,38 +3,52 @@
   "app": "com.felipe.tienda.lopez",
   "variants": {
     "universal": {
-      "version": "3.4.4",
-      "versionCode": 31,
+      "version": "3.4.5",
+      "versionCode": 32,
       "apk": {
-        "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.4/universal-31.apk",
-        "sha256": "e52e364e70992b151504d28f2240652b5454b8d21e9019034dbbabd3d0cdac1a",
-        "size": 60115694
+        "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/universal-32.apk",
+        "sha256": "28433b14150bca6de1281b0432f76122ca7267a6241e30fb1520468edfec7957",
+        "size": 60066310
       },
       "patches": [
         {
+          "fromVersionCode": 31,
+          "fromSha256": "e52e364e70992b151504d28f2240652b5454b8d21e9019034dbbabd3d0cdac1a",
+          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/universal-31-32.bsdiff",
+          "sha256": "a8f744a32cb4811b0373e6bdcf5ec9b1b3c68a57d77550708c31001806abaa37",
+          "size": 4479582
+        },
+        {
           "fromVersionCode": 30,
           "fromSha256": "9fd056dc289b6abd3e4f0b8e8f2e9e5b0ce8249c05a532cc31b4c535b72ad10d",
-          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.4/universal-30-31.bsdiff",
-          "sha256": "803436b1289e367de91bb1c63db5d0f252c2c25998c03f52d8343b583bda2ce6",
-          "size": 1509988
+          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/universal-30-32.bsdiff",
+          "sha256": "f0f737b485c153e2edf25ca690d8966c9317255b3c883f1c61d573caa777dff1",
+          "size": 4492913
         }
       ]
     },
     "arm64-v8a": {
-      "version": "3.4.4",
-      "versionCode": 2031,
+      "version": "3.4.5",
+      "versionCode": 2032,
       "apk": {
-        "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.4/arm64-v8a-2031.apk",
-        "sha256": "3232167e57f68429ece3ffd1de43d3d3fef4ab3f141a9393db156a55a516bdee",
-        "size": 30115784
+        "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/arm64-v8a-2032.apk",
+        "sha256": "5ae963649c6d79c68752ddef6d7d8495dfc4c62a7cb8dc624f4a4544120a1a05",
+        "size": 30115556
       },
       "patches": [
         {
+          "fromVersionCode": 2031,
+          "fromSha256": "3232167e57f68429ece3ffd1de43d3d3fef4ab3f141a9393db156a55a516bdee",
+          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/arm64-v8a-2031-2032.bsdiff",
+          "sha256": "e0b17b125e7bbe345f99f7090f341ea79fd2c211d5ab7190e24d6e86631c9192",
+          "size": 2789912
+        },
+        {
           "fromVersionCode": 2030,
           "fromSha256": "5ecf8710e65d19a295a713f1faf77a336687e1d2773e8d6717899ba7601acc4e",
-          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.4/arm64-v8a-2030-2031.bsdiff",
-          "sha256": "e50e1780fcce696341f9c216830110726dea8e81ec1f55ce55468779fe879ff2",
-          "size": 766674
+          "url": "https://github.com/MrF3lipe/app-updates/releases/download/tienda-lopez-v3.4.5/arm64-v8a-2030-2032.bsdiff",
+          "sha256": "dbfe60e93b93eec1571499af641ed61b3bc9924e3669728a3d31c8aa7c1457e4",
+          "size": 2799586
         }
       ]
     }
